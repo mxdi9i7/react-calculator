@@ -1,3 +1,55 @@
 .btn {
     color: #ffffff;
+    height: 2.2em;
+    width: 2.2em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 36px;
+    margin: 6px;
+    font-weight: normal;
+    line-height: 0;
+}
+
+.btn.longer {
+    width: calc(4.4em + 12px);
+    border-radius: 2.5em;
+    justify-content: flex-start;
+    padding-left: 1em;
+}
+
+.helper-buttons {
+    display: flex;
+}
+
+.helper-buttons .btn {
+    font-weight: 400;
+}
+
+.bottom-buttons {
+    display: flex;
+}
+
+.number-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number-buttons .btn {
+    background-color: rgba(42,42,42,1);
+}
+
+.bottom-buttons .btn {
+    background-color: rgba(42,42,42,1);
+}
+
+.helper-buttons .btn {
+    background-color: rgba(166,166,166,1);
+    color: #000;
+}
+
+.operator-buttons .btn {
+    background-color: rgba(252, 150, 0, 1);
 }

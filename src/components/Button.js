@@ -3,9 +3,13 @@ import '../styles/Button.css';
 
 class Button extends Component {
   render() {
+    const classList = [
+      'btn',
+      this.props.isLonger ? 'longer' : '',
+    ]
     return (
-      <div className={"btn"}>
-        button
+      <div className={classList.join(' ')}>
+        {this.props.value}
       </div>
     );
   }

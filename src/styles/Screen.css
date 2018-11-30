@@ -1,0 +1,8 @@
+.screen {
+    padding: 12px;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 84px;
+    font-weight: 100;
+}
